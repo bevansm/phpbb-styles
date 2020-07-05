@@ -11,6 +11,7 @@ A development setup for PHPBB 3.3.x styles. Please view the [phpbb styles docs](
 1. In your terminal, navigate inside this folder. [If you've never used the terminal before, this may help!](https://openclassrooms.com/en/courses/4614926-learn-the-command-line-in-terminal/4634356-navigate-your-system)
 2. If you're creating a new style:
    - Copy the "prosilver" folder inside of this folder/repository. Each folder in this folder/repository will appear as a style after launching the system.
+   - If you want to use styles from the VLDR forum as a base, copy `vldr-prosilver` or `prosilver-left`.
    - Rename the folder to your style name, and update the style.cfg file.
 3. Type `docker-compose up`
 4. You may access your local instance of phpbb and phpadmin (the database) via the browser.
